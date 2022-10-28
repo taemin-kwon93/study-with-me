@@ -12,3 +12,11 @@ foo(); // foo
 (function bar(){ console.log('bar'); });
 
 // bar(); // ReferenceError: bar is not defined
+
+//  식별자 = function 함수이름
+let add = function add(x, y){
+  return x + y;
+}
+
+// 여기서의 add는 식별자를 가리킨다.
+console.log(add(2, 5)); // 7
