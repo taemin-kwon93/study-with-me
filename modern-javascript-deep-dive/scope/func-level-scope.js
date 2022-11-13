@@ -1,7 +1,9 @@
+//let의 영역 구분
 let x = 1;
 
 if(true) {
-  let x = 10;
+  let x = 15;
+  console.log(x); // 15
 }
 console.log(x); // 1
 
@@ -13,10 +15,10 @@ if(true) {
 }
 console.log(x); // 10
 
+// var의 영역 구분
 var y = 2;
 
 if(true) {
   var y = 4;
 }
-
 console.log(y); // 4

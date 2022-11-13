@@ -9,6 +9,7 @@ function B() {
 
 function A() {
   let x = 'outter A';
+  let z = 'outter Z';
   console.log(x); // outter A
   // console.log(y); // ReferenceError: y is not defined
 
@@ -17,6 +18,7 @@ function A() {
     let y = 'B';
     console.log(x); // inner A
     console.log(y); // B
+    console.log(z); // outter Z
   }
   B();
 }
