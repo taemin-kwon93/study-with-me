@@ -16,16 +16,21 @@ let add1 = function(x, y){
  * 3. Function 생성자 함수
  * 4. 화살표 함수(ES6)
  */
+
+// 1. 함수 선언문
 function add2(x, y){
     return x + y;
-} //함수 선언문
+}
 
+// 2. 함수 표현식, 함수 리터럴로 생성
 let add3 = function(x, y){
     return x + y;
-} // 함수 표현식, 함수 리터럴로 생성
+}
 
+// 3. Function 생성자 함수, 잘 사용하지 않는다.
 let add4 = new Function('x', 'y', 'return x + y');
 
+// 4. 화살표 함수(ES6)
 let add5 = (x, y) => x + y;
 
 console.log(add1(2 ,3)); // 5

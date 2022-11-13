@@ -18,10 +18,10 @@ console.log()
 
 let obj = {name: 'kwon', age: 30}
 console.log('Second TEST start');
-console.log(obj || false);
-console.log(false || obj);
-console.log(obj && false);
-console.log(false && obj);
-console.log(false | obj);
-console.log(false & obj);
-console.log(obj);
+console.log(obj || false); // { name: 'kwon', age: 30 }
+console.log(false || obj); // { name: 'kwon', age: 30 }
+console.log(obj && false); // false
+console.log(false && obj); // false
+console.log(false | obj); // 0
+console.log(false & obj); // 0
+console.log(obj); // { name: 'kwon', age: 30 }

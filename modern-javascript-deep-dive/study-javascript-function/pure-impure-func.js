@@ -2,7 +2,7 @@
  * pure function 순수함수
  * 순수 함수는 외부상태에 의존하지 않고 매개변수를 통해 내부로 전달된 인수에게만 의존해 값을 생성하고 반환한다.
  */
-var count1 = 0;
+let count1 = 0;
 
 function increase1(n) {
   return ++n;
@@ -23,7 +23,7 @@ console.log();
  * 비순수 함수는 외부상태를 변경하므로 상태 변화를 추적하기 어렵다
  */
 
-var count2 = 0;
+let count2 = 0;
 
 function increase2(){
   return ++count2;

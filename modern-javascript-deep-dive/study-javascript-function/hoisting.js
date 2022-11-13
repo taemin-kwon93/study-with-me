@@ -5,6 +5,7 @@
 
 console.log(add(2, 5));
 console.log(sub(4, 2)); // ReferenceError: Cannot access 'sub' before initialization
+console.log(add2(2, 6)); // ReferenceError: Cannot access 'add2' before initialization
 
 function add(x, y) {
   return x + y;
@@ -13,3 +14,5 @@ function add(x, y) {
 let sub = function subtraction(x, y) {
   return x - y;
 }
+
+let add2 = (a, b) => a + b

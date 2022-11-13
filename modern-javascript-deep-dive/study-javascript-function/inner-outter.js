@@ -4,7 +4,7 @@ function outter() {
   function inner() {
     var y = 2;
     console.log('x + y');
-    console.log(x + y);
+    console.log(x + y); // 3
   }
   inner(); // outter 함수에서 inner 함수를 사용
 }
