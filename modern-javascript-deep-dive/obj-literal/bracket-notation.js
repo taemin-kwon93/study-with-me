@@ -2,8 +2,8 @@ let person = {
     name: 'Lee',
 };
 
-console.log(person.name);
-console.log(person['name']); // bracket notation
+console.log(person.name); // Lee
+console.log(person['name']); // Lee, bracket notation(괄호 표기법)
 // console.log(person[name]); // ReferenceError: name is not defined
 console.log(person.age); // undefined
 console.log(person['age']); // undefined

@@ -31,5 +31,5 @@ repeat(5, logOdds); // 1 3
  * 익명함수 리터럴은 콜백 함수로 고차함수에 전달한다.
  */
 repeat(5, function(i) {
-  if (i % 2) console.log(i);
-}) // 1 3
+  if (i % 2) console.log(i); // 1 3
+})
