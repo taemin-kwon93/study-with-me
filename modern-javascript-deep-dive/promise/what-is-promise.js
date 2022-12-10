@@ -11,6 +11,7 @@ const get = url => {
 
   xhr.onload = () => {
     if (xhr.status === 200) {
+      console.log('xhr.response');
       console.log(JSON.parse(xhr.response));
     } else {
       console.error(`${xhr.status} ${xhr.statusText}`);
